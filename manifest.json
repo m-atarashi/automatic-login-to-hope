@@ -2,7 +2,7 @@
 {
     "name": "automatic-login-to-hope",
     "version": "0.0.1",
-    "manifest_version": 1,
+    "manifest_version": 3,
     "description": "Login to HOPE automatically.",
     "content_scripts": [
         {
