@@ -38,7 +38,7 @@ HOPEのトップページ[^1][^2]にアクセスすると、HOPEに自動的に�
 ## Notes
 バグや改善案等ありましたら、お気軽にissue立てたりpull request飛ばしたりしていただけますと幸いです。
 
-連絡先：m-atarashi[at]sumilab.org
+Contact: m-atarashi[at]sumilab.org
 
 [^1]: [https://hope.fun.ac.jp](https://hope.fun.ac.jp)
 [^2]: [https://hope.fun.ac.jp/local/hope/login.php](https://hope.fun.ac.jp/local/hope/login.php)
