@@ -1,8 +1,6 @@
 # automatic-login-to-hope
 HOPEのトップページ[^1][^2]にアクセスすると、HOPEに自動的にログインします。
 
-Tampermonkeyユーザの方は代わりに[こちら](https://github.com/m-atarashi/UserStyle-and-UserScript-Zoo/blob/main/HOPE/automatic-login-to-hope.js)をご利用いただくこともできます。
-
 ## Installation
 1. このリポジトリを[zipファイルでダウンロード](https://github.com/m-atarashi/automatic-login-to-hope/archive/refs/heads/main.zip "Download ZIP")するか、[最新のRealse](https://github.com/m-atarashi/automatic-login-to-hope/releases/latest)から**Source code (zip)** をダウンロードします。
 
@@ -13,6 +11,9 @@ Tampermonkeyユーザの方は代わりに[こちら](https://github.com/m-atara
 4. 左上の「パッケージ化されていない拡張機能を読み込む」をクリックし、2. で展開したフォルダを選択します。
 
 5. 拡張機能の一覧に「automatic-login-to-hope」が表示されていればインストールは完了です。
+
+### Tampermonkey
+- Chrome拡張機能の[Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)を導入することで、本拡張機能の代わりに[こちら](https://github.com/m-atarashi/UserStyle-and-UserScript-Zoo/blob/main/HOPE/automatic-login-to-hope.js)のUserScriptをご利用いただくこともできます。
 
 ## Features
 1. HOPEのトップページ[^1] または「HOPE: ログイン」[^2]にアクセスすると、「未来大の学生・教員 FUN Students & Staff」のリンク[^3]を経由して、未来大の認証画面[^4]に遷移します。その際、`location.href`を書き換えています。
