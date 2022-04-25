@@ -1,0 +1,20 @@
+
+{
+    "name": "automatic-login-to-hope",
+    "version": "0.0.1",
+    "manifest_version": 1,
+    "description": "Login to HOPE automatically.",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://hope.fun.ac.jp",
+                "https://hope.fun.ac.jp/local/hope/login.php*",
+                "https://sso.fun.ac.jp/my.policy"
+            ],
+            "run_at": "document_end",
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}
