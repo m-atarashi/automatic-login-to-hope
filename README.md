@@ -36,7 +36,7 @@ HOPEのトップページ[^1][^2]にアクセスすると、HOPEに自動的に�
 拡張機能およびREADME.mdの作成において、[kume-negitoro](https://github.com/kume-negitoro)氏の[hope-coursename-fix](https://github.com/Better-HOPE/hope-coursename-fix)を参考にさせていただきました。感謝申し上げます。
 
 ## Notes
-バグや改善案等ありましたらお気軽にpull request飛ばしていただけますと幸いです。
+バグや改善案等ありましたら、お気軽にissue立てたりpull request飛ばしたりしていただけますと幸いです。
 
 連絡先：m-atarashi[at]sumilab.org
 
