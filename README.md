@@ -1,7 +1,7 @@
 # automatic-login-to-hope
 HOPEのトップページ[^1][^2]にアクセスすると、HOPEに自動的にログインします。
 
-Tampermonkeyユーザの方は[こちら](https://github.com/m-atarashi/UserStyle-and-UserScript-Zoo/blob/main/HOPE/auto-login-to-hope.js)を代わりにご利用いただくこともできます。
+Tampermonkeyユーザの方は代わりに[こちら](https://github.com/m-atarashi/UserStyle-and-UserScript-Zoo/blob/main/HOPE/auto-login-to-hope.js)をご利用いただくこともできます。
 
 ## Installation
 1. このリポジトリを[zipファイルでダウンロード](https://github.com/m-atarashi/automatic-login-to-hope/archive/refs/heads/main.zip "Download ZIP")するか、[最新のRealse](https://github.com/m-atarashi/automatic-login-to-hope/releases/latest)から**Source code (zip)** をダウンロードします。
@@ -23,17 +23,15 @@ Tampermonkeyユーザの方は[こちら](https://github.com/m-atarashi/UserStyl
 
 4. ログインに成功するとHOPEのマイページ[^5]に遷移します。
 
-#### HOPE以外の学内システム
-- 本拡張機能には **1. HOPEから学認ログインページ[^4]への遷移**、**2. 学認への自動ログイン** という2つの機能が含まれています。
-    - 具体的には`location.href`に応じて条件分岐させています。
-- そのため、HOPE以外の学内システム[^6]における学認ログインページへの遷移時にも、自動ログイン機能が働きます。
-    - つまり、遷移元に関わらず、https://sso.fun.ac.jp/ にアクセスすると自動ログインが実行されます。 
+### Other Features
+本拡張機能には **1. HOPEから学認ログインページ[^4]への遷移**、**2. 学認への自動ログイン** という2つの機能が含まれています。
+そのため、学認ログインを要求する任意のシステム[^6]において、学認ログインページへの遷移後に自動ログイン機能が働きます。
 
 ## Acknowledgments
 拡張機能およびREADME.mdの作成において、[kume-negitoro](https://github.com/kume-negitoro)氏の[hope-coursename-fix](https://github.com/Better-HOPE/hope-coursename-fix)を参考にさせていただきました。感謝申し上げます。
 
 ## Notes
-バグや改善案等ありましたらお気軽にpull requestを飛ばしていただけますと幸いです。
+バグや改善案等ありましたらお気軽にpull request飛ばしていただけますと幸いです。
 
 連絡先：m-atarashi[at]sumilab.org
 
@@ -42,4 +40,4 @@ Tampermonkeyユーザの方は[こちら](https://github.com/m-atarashi/UserStyl
 [^3]: [https://hope.fun.ac.jp/auth/saml2/login.php?idp=1bec319bca7458548c77d545a2a1b3de](https://hope.fun.ac.jp/auth/saml2/login.php?idp=1bec319bca7458548c77d545a2a1b3de)
 [^4]: [https://sso.fun.ac.jp/my.policy](https://sso.fun.ac.jp/my.policy)
 [^5]: [hope.fun.ac.jp/my](hope.fun.ac.jp/my)
-[^6]: [情報ライブラリー](https://library.fun.ac.jp/)のWebOPAC、[WebDav](https://webdav.fun.ac.jp/)など
+[^6]: [情報ライブラリー](https://library.fun.ac.jp/)のWebOPAC、[WebDav](https://webdav.fun.ac.jp/)、fun.ac.jpドメインによる[Googleログイン](https://accounts.google.com/AccountChooser)など
