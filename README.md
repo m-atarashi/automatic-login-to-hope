@@ -15,9 +15,11 @@ HOPEのトップページ[^1][^2]にアクセスすると、HOPEに自動的に�
 ## Features
 1. HOPEのトップページ[^1] または「HOPE: ログイン」[^2]にアクセスすると、「未来大の学生・教員 FUN Students & Staff」のリンク[^3]を経由して、未来大の認証画面[^4]に遷移します。その際、`location.href`を書き換えています。
 
-2. その後、[Navigator.credentials](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/credentials) を用いてブラウザに保存されたユーザー名とパスワードを取得、inputフォームに自動入力します。最後にsubmitイベントを発火することで認証、HOPEにログインします。
+2. その後、[Navigator.credentials](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/credentials) を用いてブラウザに保存されたユーザー名とパスワードを取得、`input`要素に自動入力します。その際、`input`要素の`value`を書き換えています。
 
-3. ログインに成功するとHOPEのマイページ[^5]に遷移します。
+3. 最後に`submit`イベントを発火することで認証し、HOPEにログインします。
+
+4. ログインに成功するとHOPEのマイページ[^5]に遷移します。
 
 
 ## Acknowledgments
