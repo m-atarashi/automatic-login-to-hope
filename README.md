@@ -1,7 +1,7 @@
 # automatic-login-to-hope
 HOPEのトップページ[^1][^2]にアクセスすると、HOPEに自動的にログインします。
 
-Tampermonkeyユーザの方は代わりに[こちら](https://github.com/m-atarashi/UserStyle-and-UserScript-Zoo/blob/main/HOPE/auto-login-to-hope.js)をご利用いただくこともできます。
+Tampermonkeyユーザの方は代わりに[こちら](https://github.com/m-atarashi/UserStyle-and-UserScript-Zoo/blob/main/HOPE/automatic-login-to-hope.js)をご利用いただくこともできます。
 
 ## Installation
 1. このリポジトリを[zipファイルでダウンロード](https://github.com/m-atarashi/automatic-login-to-hope/archive/refs/heads/main.zip "Download ZIP")するか、[最新のRealse](https://github.com/m-atarashi/automatic-login-to-hope/releases/latest)から**Source code (zip)** をダウンロードします。
