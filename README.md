@@ -27,7 +27,7 @@ Tampermonkeyユーザの方は[こちら](https://github.com/m-atarashi/UserStyl
 - 本拡張機能には **1. HOPEから学認ログインページ[^4]への遷移**、**2. 学認への自動ログイン** という2つの機能が含まれています。
     - 具体的には`location.href`に応じて条件分岐させています。
 - そのため、HOPE以外の学内システム[^6]における学認ログインページへの遷移時にも、自動ログイン機能が働きます。
-    - つまり、遷移元に関わらず、https://sso.fun.ac.jp/my.policy にアクセスすると自動ログインが実行されます。 
+    - つまり、遷移元に関わらず、https://sso.fun.ac.jp/ にアクセスすると自動ログインが実行されます。 
 
 ## Acknowledgments
 拡張機能およびREADME.mdの作成において、[kume-negitoro](https://github.com/kume-negitoro)氏の[hope-coursename-fix](https://github.com/Better-HOPE/hope-coursename-fix)を参考にさせていただきました。感謝申し上げます。
@@ -42,4 +42,4 @@ Tampermonkeyユーザの方は[こちら](https://github.com/m-atarashi/UserStyl
 [^3]: [https://hope.fun.ac.jp/auth/saml2/login.php?idp=1bec319bca7458548c77d545a2a1b3de](https://hope.fun.ac.jp/auth/saml2/login.php?idp=1bec319bca7458548c77d545a2a1b3de)
 [^4]: [https://sso.fun.ac.jp/my.policy](https://sso.fun.ac.jp/my.policy)
 [^5]: [hope.fun.ac.jp/my](hope.fun.ac.jp/my)
-[^6]: [情報ライブラリー](https://library.fun.ac.jp/)のWebOPACなど
+[^6]: [情報ライブラリー](https://library.fun.ac.jp/)のWebOPAC、[WebDav](https://webdav.fun.ac.jp/)など
