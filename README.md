@@ -13,7 +13,7 @@ HOPEのトップページ[^1][^2]にアクセスすると、HOPEに自動的に�
 5. 拡張機能の一覧に「automatic-login-to-hope」が表示されていればインストールは完了です。
 
 ### Tampermonkey
-- Chrome拡張機能の[Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)を導入することで、本拡張機能の代わりに[こちら](https://github.com/m-atarashi/UserStyle-and-UserScript-Zoo/blob/main/HOPE/automatic-login-to-hope.js)のUserScriptをご利用いただくこともできます。
+Chrome拡張機能の[Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)を導入することで、本拡張機能の代わりに[こちら](https://github.com/m-atarashi/UserStyle-and-UserScript-Zoo/blob/main/HOPE/automatic-login-to-hope.js)のUserScriptをご利用いただくこともできます。
 
 1. ダッシュボードの⊞ボタンをクリックし、<新規 UserScript>を開きます。
 
